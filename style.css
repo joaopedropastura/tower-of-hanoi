@@ -1,0 +1,143 @@
+body {
+    background-color: skyblue;
+    margin: 0%;
+    
+}
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0%;
+    font-size: 40px;
+    
+}
+main {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+
+
+}
+footer{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+}
+
+#vitoria {
+        width: 80vw;
+        font-size: 20px;
+        margin: 0 auto;
+        color: #fff;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 50px #fff, 0 0 20px #fff, 0 0 30px  #0afd03, 0 0 40px #0afd03, 0 0 50px  #0afd03, 0 0 60px  #0afd03, 0 0 70px  #0afd03;
+        }
+        
+        to {
+          text-shadow: 0 0 10px #fff, 0 0 30px  #0afd03, 0 0 40px  #0afd03, 0 0 50px  #0afd03, 0 0 60px  #0afd03, 0 0 70px  #0afd03, 0 0 80px  #0afd03;
+        }
+}
+
+
+
+.stick {
+    background-color: black;
+    height: 200px;
+    width: 15px;
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center;
+
+}
+
+.peca1 {
+    background-color: tomato;
+    height: 25px;
+    width: 55px;
+    border-radius: 20px;
+}
+
+.peca2 {
+    background-color: darkmagenta;
+    height: 25px;
+    width: 75px;
+    border-radius: 20px;
+}
+
+
+.peca3 {
+    background-color: blueviolet;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+
+} 
+.peca4 {
+    background-color: lightseagreen;
+    height: 25px;
+    width: 120px;
+    border-radius: 20px;
+
+} 
+
+.tower{
+    margin: 0 auto;
+}
+
+.base {
+
+    border-bottom: solid 70px blanchedalmond;
+    height: 200px;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around; 
+
+
+}
+
+.teste{
+
+    width: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    h1{
+        font-size: 80px;
+    }
+    .peca1{
+        height: 40px;
+        width: 100px;
+    }
+    .peca2{
+        height: 40px;
+        width: 150px;
+    }
+    .peca3{
+        height: 40px;
+        width: 200px;
+    }
+    .peca4 {
+        height: 40px;
+        width: 250px;
+    } 
+    #vitoria{
+        font-size: 45px;
+    }
+  } 
+  
+
